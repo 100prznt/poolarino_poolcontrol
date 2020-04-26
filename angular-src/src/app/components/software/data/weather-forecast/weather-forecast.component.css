@@ -1,0 +1,28 @@
+.headline{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+
+.fourHoursTop{
+    width: 100%;
+    height: 23%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.fourHoursBottom{
+    width: 100%;
+    height: 23%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hourForecast{
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}

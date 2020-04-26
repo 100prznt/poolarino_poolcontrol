@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+
+.mat-tab-body-wrapper {
+    height: 100% !important;
+}
+
+.mat-table, .mat-paginator {
+    background: none !important;
+}
+
+body.swal2-height-auto {
+    height: inherit !important;
+}

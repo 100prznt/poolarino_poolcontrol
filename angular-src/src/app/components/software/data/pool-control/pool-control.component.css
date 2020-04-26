@@ -1,0 +1,390 @@
+@media screen and (max-width: 800px) {
+
+
+    .switches{
+        width: 88%;
+        height: 35%;
+        position: absolute;
+        box-sizing: border-box;
+    }
+
+    .leftSwitches{
+        width: 50%;
+        height: 100%;
+        padding: 3%;
+        box-sizing: border-box;
+        float: left;
+
+    }
+
+    .rightSwitches{
+        width: 50%;
+        height: 100%;
+        padding: 3%;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    .leftSwitch, .rightSwitch{
+        width: 100%;
+        height: 45%;
+        box-sizing: border-box;
+        border: 1px solid lightgray;
+        border-radius: 2px;
+        z-index: 5;
+    }
+    
+    .topStatusBar{
+        width: 100%;
+        height: 4%;
+    }
+
+    .buttonArea{
+        width: 100%;
+        height: 92%;
+    }
+
+    .buttonIcon{
+        width: 15%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .buttonDescription{
+        width: 50%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+    .buttonDescriptionText{
+        font-size: 14pt;
+    }
+
+    .buttonRuntimeAndPowerConsumption{
+        width: 35%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border-left: 1px solid lightgray;
+    }
+
+    .buttonRuntimeRuntime{
+        text-align: center;
+        padding-top: 2.5%;
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+        border-bottom: 1px solid gray;
+        font-size: 11pt;
+    }
+
+    .buttonRuntimePower{
+        text-align: center;
+        padding-top: 2.5%;
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+        font-size: 11pt;
+    }
+
+    .bottomStatusBar{
+        width: 100%;
+        height: 4%;
+    }
+
+    .redBackground{
+        background-color: rgba(220, 14, 17, 0.9)
+    }
+
+    .greenBackground{
+        background-color: rgba(11, 117, 10, 0.9);
+    }
+
+    .sizeCorrection{
+        font-size: 28pt;
+        margin-top: 11.5%;
+        margin-left: 11%;
+        color: darkslategray;
+    }
+    
+    hr{
+        margin-bottom: 0.8rem !important;
+    }
+
+    .displayNone{
+        display: none;
+    }
+
+    .upperTemps{
+        width: 100%;
+        height: 20%;
+        margin-top: 29%;
+    }
+
+    .tempContainer{
+        width: 33.3%;
+        height: 100%;
+        float: left;
+    }
+
+    .tempIcon{
+        position: absolute;
+        margin-top: 6%;
+        margin-left: 12%;
+    }
+
+    .disabled{
+        color: lightgray;
+    }
+
+    .upperAliner{
+        margin-left: 20%;
+    }
+
+    .upperTemperature{
+        margin-left: 33%;
+        margin-top: 25%;
+        font-size: 16pt;
+    }
+
+    .roundProgress{
+        width: 150px !important;
+        margin-top: 60%;
+        margin-left: 21%;
+    }
+
+    .roundProgressMiddle{
+        width: 150px !important;
+        margin-top: 83%;
+        margin-left: 21%;
+    }
+
+    .roundProgressBottom{
+        width: 150px !important;
+        margin-top: 120%;
+        margin-left: 21%;
+    }
+
+    #containerTempSolaranlage, #containerTempGartenhuette, #containerTempRaspiGehaeuse{
+        position: fixed !important;
+        top: 27%;
+    }
+
+    #containerTempSwitchGehaeuse, #containerTempHifiGehaeuse, #containerTempSkimmer{
+        position: fixed !important;
+        top: 45%;
+    }
+/* 
+    #containerTempErwaermtesWasser, #containerTempRaspiDifferenz{
+        position: fixed !important;
+        top: 40%;
+    } */
+
+    #containerTempLufttemperatur, #containerTempGartenhuette, #containerTempRaspiGehaeuse, #containerTempSwitchGehaeuse, #containerTempHifiGehaeuse, #containerTempSkimmer, #containerTempSolaranlage, #containerTempErwaermtesWasser, #containerTempRaspiDifferenz {
+        width: 21%;
+        height: 15%;
+    }
+
+    .middleTemps{
+        width: 100%;
+        height: 20%;
+    }
+
+    .hrcorrection{
+        position: absolute;
+        width: 88%;
+        top: 35%;
+    }
+
+    .loadingBar{
+        position: absolute;
+        top: 38.5%;
+        height: 1%;
+        width: 88%;
+    }
+
+    ::ng-deep .mat-progress-bar-fill::after{
+        background-color: orange;
+    }
+
+    ::ng-deep  .mat-progress-bar-buffer{
+        background: #E4E8EB;
+    }
+
+    .disableButton{
+        color: #a7a7a7;
+    }
+
+    .bottomTemps{
+        width: 88%;
+        height: 8%;
+        position: fixed;
+        box-sizing: border-box;
+        bottom: 0;
+    }
+
+    .bottomTempContainer{
+        box-sizing: border-box;
+        width: 33.3%;
+        height: 100%;
+        float: left;
+        border-right: 1px solid lightgray;
+    }
+
+    .bottomTemperature{
+        width: 77%;
+        height: 100%;
+        float: left;
+        font-size: 11pt;
+        margin-top: 4%;
+    }
+
+    .bottomTemperatureIcon{
+        width: 18%;
+        height: 100%;
+        float: left;
+        font-size: 17pt;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 801px) {
+
+    .displayNone{
+        display: none;
+    }
+
+    .chartContainer, .chartControlDescription {
+        display: block;
+    }
+
+    .controlCenter, .shellyRelais{
+        width: 100%;
+        height: 8%;
+        background-color: rgb(233, 233, 233)
+    }
+    
+    .shellyRelais{
+        margin-top: 2%;
+    }
+    
+    .controlOption{
+        cursor: pointer;
+        width: 25%;
+        height: 100%; 
+        float: left;
+        box-sizing: border-box;
+        border-right: 1px solid gray;
+    }
+    
+    .controlOption:hover{
+        background-color:rgb(196, 196, 196);
+    }
+    
+    .controlIcon{
+        width: 20%;
+        box-sizing: border-box;
+        margin-top: 3%;
+        padding-left: 6%;
+        float: left;
+    }
+    
+    .controlDescription{
+        width: 80%;
+        box-sizing: border-box;
+        float: right;
+        padding-top: 5%;
+    }
+    
+    .temperatures{
+        margin-top: 2%;
+        width: 100%;
+        height: 16%;
+        background-color: rgb(233, 233, 233);
+    }
+    
+    .temperature{
+        display: inline-block;
+        font-size: 16pt;
+    }
+    
+    .topTemps{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .bottomTemps{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .topTempContainer, .relay{
+        box-sizing: border-box;
+        width: 25%;
+        height: 100%;
+        float: left;
+        border-right: 1px solid gray;
+    }
+    
+    .bottomTempContainer{
+        box-sizing: border-box;
+        width: 25%;
+        height: 100%;
+        float: left;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+    
+    .tempIcon, .relayIcon{
+        width: 20%;
+        box-sizing: border-box;
+        margin-top: 4%;
+        padding-left: 5%;
+        float: left;
+    }
+    
+    .relayIcon{
+        cursor: pointer;
+        width: 20%;
+        box-sizing: border-box;
+        margin-top: 4%;
+        padding-left: 5%;
+        float: left;
+    }
+    
+    .tempDescription, .relayDescription{
+        width: 80%;
+        box-sizing: border-box;
+        float: right;
+        padding-top: 5%;
+    }
+    
+    .relayDescription{
+        padding-top: 6%;
+    }
+    
+    .powerState{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .positive{
+        color: green;
+    }
+    
+    .negative{
+        color: red;
+    }
+
+    .disabled{
+        color: lightgray;
+    }
+}
+
+
+

@@ -1,0 +1,108 @@
+<div class="headline">
+    <h3>Bremen</h3>
+</div>
+<hr>
+<div class="fourHoursTop">
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon0" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[0] ? forecasts[0].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[0] ? completeDates[0] : '' }} - <b>{{ completeTimes[0] ? completeTimes[0] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon1" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[1] ? forecasts[1].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[1] ? completeDates[1] : '' }} - <b>{{ completeTimes[1] ? completeTimes[1] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon2" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[2] ? forecasts[2].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[2] ? completeDates[2] : '' }} - <b>{{ completeTimes[2] ? completeTimes[2] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon3" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[3] ? forecasts[3].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[3] ? completeDates[3] : '' }} - <b>{{ completeTimes[3] ? completeTimes[3] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+</div>
+<div class="fourHoursBottom">
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon4" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[4] ? forecasts[4].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[4] ? completeDates[4] : '' }} - <b>{{ completeTimes[4] ? completeTimes[4] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon5" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[5] ? forecasts[5].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[5] ? completeDates[5] : '' }} - <b>{{ completeTimes[5] ? completeTimes[5] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon6" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[6] ? forecasts[6].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[6] ? completeDates[6] : '' }} - <b>{{ completeTimes[6] ? completeTimes[6] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+    <div class="hourForecast">
+        <div class="icon">
+            <img [src]="weatherIcon7" width="40%" alt="">
+        </div>
+        <div class="temperature">
+            {{ forecasts[7] ? forecasts[7].main.temp + '°C' : '' }}
+        </div>
+        <div class="time">
+            {{ completeDates[7] ? completeDates[7] : '' }} - <b>{{ completeTimes[7] ? completeTimes[7] + 'Uhr': '' }}</b> 
+        </div>
+    </div>
+</div>
+<hr>
+<div class="threeDayForecast">
+    <div class="dayForecast">
+
+    </div>
+    <div class="dayForecast">
+
+    </div>
+    <div class="dayForecast">
+        
+    </div>
+</div>

@@ -1,0 +1,506 @@
+@media screen and (max-width: 800px) {
+
+    .menuButtonDescription{
+        display: none;
+    }
+
+    ul, li{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .menuButtonContainer{
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid lightgray;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .menuButtonColoredLine{
+        float: left;
+        width: 2%;
+        height: 100%;
+    }
+    
+    .lineCustomers{
+        background-color: rgba(0, 64, 182, 0.75);
+    }
+    
+    .buttonCustomers{
+        border-top: 1px solid lightgray
+    }
+    
+    .buttonCustomers:focus{
+        outline: 0;
+    }
+    
+    .buttonCustomersActive{
+        background-color: rgba(0, 64, 182, 0.75);
+        cursor: default !important;
+    }
+    
+    .buttonCustomersActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonCustomersActive .menuButton{
+        color: white;
+    }
+
+    .lineWeather{
+        background-color: rgba(255, 238, 0, 0.75);
+    }
+    
+    .buttonWeather:hover{
+        background-color: rgba(255, 238, 0, 0.75);
+        cursor: pointer;
+    }
+    
+    .buttonWeather:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonWeather:hover .menuButton{
+        color: white;
+    }
+
+    .buttonWeather{
+        border-top: 1px solid lightgray
+    }
+    
+    .buttonWeather:focus{
+        outline: 0;
+    }
+    
+    .buttonWeatherActive{
+        background-color: rgba(255, 238, 0, 0.75);
+        cursor: default !important;
+    }
+    
+    .buttonWeatherActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonWeatherActive .menuButton{
+        color: white;
+    }
+    
+    .buttonWeather:hover{
+        background-color: rgba(255, 238, 0, 0.75);
+        cursor: pointer;
+    }
+    
+    .buttonWeather:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonWeather:hover .menuButton{
+        color: white;
+    }
+    
+    .lineInventory{
+        background-color: rgba(209, 114, 213, 0.8);
+    }
+    
+    .buttonInventory:hover{
+        background-color:rgba(209, 114, 213, 0.8);
+        cursor: pointer;
+    }
+    
+    .buttonInventoryActive{
+        background-color: rgba(209, 114, 213, 0.8);
+        cursor: default !important;
+    }
+    
+    .buttonInventoryActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonInventoryActive .menuButton{
+        color: white;
+    }
+    
+    .buttonInventory:focus{
+        outline: 0;
+    }
+    
+    .buttonInventory:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonInventory:hover .menuButton{
+        color: white;
+    }
+    
+    .lineSettings{
+        background-color: rgba(248, 63, 63, 0.87);
+    }
+    
+    .buttonSettings:hover{
+        background-color: rgba(248, 63, 63, 0.87);
+        cursor: pointer;
+    }
+    
+    .buttonSettingsActive{
+        background-color: rgba(248, 63, 63, 0.87);
+        cursor: default !important;
+    }
+    
+    .buttonSettingsActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonSettingsActive .menuButton{
+        color: white;
+    }
+    
+    .buttonSettings:focus{
+        outline: 0
+    }
+    
+    .buttonSettings:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonSettings:hover .menuButton{
+        color: white;
+    }
+    
+    .menuIcon{
+        float: left;
+        width: 24%;
+        max-height: 100%;
+        color: rgba(43, 43, 43, 0.85);
+        padding-top: 15%;
+        padding-left: 20%;
+    }
+    
+    .menuButton{
+        color: rgba(43, 43, 43, 0.85);
+        float: left;
+        width: 71%;
+        max-height: 100%;
+        padding-top: 9%;
+        padding-left: 3%;
+        font-size: 11pt;
+    }
+    
+    .fasome{
+        margin-left: 26.5%;
+        font-size: 30px;
+    }
+    
+    .submenu{
+        color: rgba(43, 43, 43, 0.85);
+        width: 100%;
+    }
+    
+    .marginForInventory{
+        margin-bottom: 10px;
+    }
+    
+    .firstSubmenuItem{
+        margin-top: 5%;
+    }
+    
+    .submenuItem, .submenuInventoryItem{
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding-top: 3%;
+        box-sizing: border-box;
+        height: 30px;
+        width: 100%;
+        padding-left: 15%;
+    }
+    
+    .submenuItem:focus {
+        outline: none;
+    }
+    
+    .submenuIcon{
+        width: 15%;
+        float: left;
+    }
+    
+    .submenuIconDescription{
+        width: 70%;
+        float: left;
+    }
+    
+    .submenuCustomerItem:hover{
+        border-right: 3px solid rgba(0, 64, 182, 0.719) !important;
+    }
+    
+    .submenuItem:hover{
+        font-weight: bold;
+        cursor: pointer;
+        border-right: 3px solid rgba(248, 63, 63, 0.87);
+    }
+    
+    .submenuInventoryItem:hover{
+        font-weight: bold;
+        cursor: pointer;
+        border-right: 3px solid rgba(209, 114, 213, 0.8);
+    }
+    
+    .poolarinoLogo{
+        position: absolute;
+        bottom: 14%;
+        margin-left: 1%;
+    }
+
+    .poolarinoText{
+        text-align: center;
+        font-size: 6pt;
+        position: absolute;
+        bottom: 7%;
+        width: 10%;
+        margin-left: 1%;
+    }
+
+    .poolarinoVersion{
+        text-align: center;
+        font-size: 6pt;
+        position: absolute;
+        bottom: 7%;
+        width: 10%;
+        margin-left: 1%;
+        margin-bottom: 0px !important;
+    }
+
+    .clock{
+        color: gray;
+        font-size: 11pt;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 0px !important;
+        margin-left: 0.5%;
+    }
+    
+}
+
+@media screen and (min-width: 801px) {
+
+    .menuButtonDescription{
+        display: inline-block;
+    }
+
+    ul, li{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .menuButtonContainer{
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid lightgray;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .menuButtonColoredLine{
+        float: left;
+        width: 2%;
+        height: 100%;
+    }
+    
+    .lineCustomers{
+        background-color: rgba(44, 189, 0, 0.75);
+    }
+    
+    .buttonCustomers{
+        border-top: 1px solid lightgray
+    }
+    
+    .buttonCustomers:focus{
+        outline: 0;
+    }
+    
+    .buttonCustomersActive{
+        background-color: rgba(44, 189, 0, 0.75);
+        cursor: default !important;
+    }
+    
+    .buttonCustomersActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonCustomersActive .menuButton{
+        color: white;
+    }
+    
+    .buttonCustomers:hover{
+        background-color: rgba(44, 189, 0, 0.75);
+        cursor: pointer;
+    }
+    
+    .buttonCustomers:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonCustomers:hover .menuButton{
+        color: white;
+    }
+    
+    .lineInventory{
+        background-color: rgba(209, 114, 213, 0.8);
+    }
+    
+    .buttonInventory:hover{
+        background-color:rgba(209, 114, 213, 0.8);
+        cursor: pointer;
+    }
+    
+    .buttonInventoryActive{
+        background-color: rgba(209, 114, 213, 0.8);
+        cursor: default !important;
+    }
+    
+    .buttonInventoryActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonInventoryActive .menuButton{
+        color: white;
+    }
+    
+    .buttonInventory:focus{
+        outline: 0;
+    }
+    
+    .buttonInventory:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonInventory:hover .menuButton{
+        color: white;
+    }
+    
+    .lineSettings{
+        background-color: rgba(248, 63, 63, 0.87);
+    }
+    
+    .buttonSettings:hover{
+        background-color: rgba(248, 63, 63, 0.87);
+        cursor: pointer;
+    }
+    
+    .buttonSettingsActive{
+        background-color: rgba(248, 63, 63, 0.87);
+        cursor: default !important;
+    }
+    
+    .buttonSettingsActive .menuIcon{
+        color: white;
+    }
+    
+    .buttonSettingsActive .menuButton{
+        color: white;
+    }
+    
+    .buttonSettings:focus{
+        outline: 0
+    }
+    
+    .buttonSettings:hover .menuIcon{
+        color: white;
+    }
+    
+    .buttonSettings:hover .menuButton{
+        color: white;
+    }
+    
+    .menuIcon{
+        float: left;
+        width: 24%;
+        max-height: 100%;
+        color: rgba(43, 43, 43, 0.85);
+        padding-top: 5%;
+    }
+    
+    .menuButton{
+        color: rgba(43, 43, 43, 0.85);
+        float: left;
+        width: 71%;
+        max-height: 100%;
+        padding-top: 9%;
+        padding-left: 3%;
+        font-size: 11pt;
+    }
+    
+    .fasome{
+        margin-left: 26.5%;
+        font-size: 30px;
+    }
+    
+    .submenu{
+        color: rgba(43, 43, 43, 0.85);
+        width: 100%;
+    }
+    
+    .marginForInventory{
+        margin-bottom: 10px;
+    }
+    
+    .firstSubmenuItem{
+        margin-top: 5%;
+    }
+    
+    .submenuItem, .submenuInventoryItem{
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding-top: 3%;
+        box-sizing: border-box;
+        height: 30px;
+        width: 100%;
+        padding-left: 15%;
+    }
+    
+    .submenuItem:focus {
+        outline: none;
+    }
+    
+    .submenuIcon{
+        width: 15%;
+        float: left;
+    }
+    
+    .submenuIconDescription{
+        width: 70%;
+        float: left;
+    }
+    
+    .submenuCustomerItem:hover{
+        border-right: 3px solid rgba(44, 189, 0, 0.75) !important;
+    }
+    
+    .submenuItem:hover{
+        font-weight: bold;
+        cursor: pointer;
+        border-right: 3px solid rgba(248, 63, 63, 0.87);
+    }
+    
+    .submenuInventoryItem:hover{
+        font-weight: bold;
+        cursor: pointer;
+        border-right: 3px solid rgba(209, 114, 213, 0.8);
+    }
+    
+}
+

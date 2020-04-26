@@ -1,0 +1,36 @@
+{
+  "name": "poolarinopoolcontrol",
+  "version": "1.1.0",
+  "description": "Poolarino Poolcontrol by www.poolarino.de",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "ds18b20": "^0.1.0",
+    "es6-promise": "^4.2.8",
+    "express": "*",
+    "express-error-handler": "^1.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "node-fetch": "^2.6.0",
+    "node-geocoder": "^3.27.0",
+    "nodemailer": "^6.4.6",
+    "passport": "*",
+    "passport-jwt": "*",
+    "rpi-gpio": "^2.1.5",
+    "shelljs": "^0.8.4",
+    "shelly-iot": "^1.0.6"
+  },
+  "author": "Tammo Schimanski",
+  "license": "GPL",
+  "devDependencies": {
+    "@types/jquery": "^3.3.35"
+  }
+}
